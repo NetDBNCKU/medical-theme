@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>{{title}}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
+<link rel="stylesheet" href="css/semantic.min.css" type="text/css" />
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header id="top" class="header">
+        <div class="ui grid">
+            <div class="nav computer tablet only row">
+                <div class="logo">
+                    <img src="{{logo}}" alt="" />
+                </div>
+                <div class="logo-text">
+                    {{title}}
+                </div>
+                <div class="nav-btns">
+                    <a class="nav-index" href="#index">
+                        <div id="main-page">首頁</div>
+                        <div class="main-page-border nav-active"></div>
+                    </a>
+                    <a class="nav-works" href="#workSets">
+                        <div id="work-set">內容</div>
+                        <div class="main-page-border"></div>
+                    </a>
+                    <a class="nav-about" href="#aboutUs">
+                        <div id="about-us">關於我們</div>
+                        <div class="main-page-border"></div>
+                    </a>
+                    <a class="nav-contact" href="#contactUs">
+                        <div id="contact-us">聯絡我們</div>
+                        <div class="main-page-border"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="nav mobile only narrow row">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="" />
+                </div>
+                <div class="logo-text">{{title}}</div>
+                <div class="nav-btn">
+                    <div class="menu-button-link">
+                        <i class="list layout icon"> </i>
+                    </div>
+                    <div class="ui vertical menu mobileMenu" style="display:none">
+                        <a class="item m-index" href="#index">首頁</a>
+                        <a class="item m-workset" href="#workSets">內容</a>
+                        <a class="item m-aboutus" href="#aboutUs">關於內容</a>
+                        <a class="item m-contactus" href="#contactUs">聯絡我們</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="index" class="index">
+        <div class="introduce_logo">
+            <img src="img/icon_stethoscope.svg" alt="" />
+        </div>
+        <div class="introduce_titile">
+            <div class="introduce_titile_text">
+                {{introduct_title}}<br>
+            </div>
+            <div class="introduce_subtitile_text">{{sub_title}}</div>
+        </div>
+        <div class="slogan">{{slogan}}</div>
+    </section>
+    <section id="workSets">
+        <div class="workSet_title">
+            <p> 內容 </p>
+        </div>
+        <div class="ui stackable grid workListTab-content">
+            <div class="two wide column"></div>
+            <div class="thirteen wide column">
+                {{#each content}}
+                <p>{{this.detail}}</p>
+                {{/each}}
+                <iframe src="{{content_graph}}" frameborder="0" style="width:100%; height:600px;"></iframe>
+            </div>
+            <div class="one wide column"></div>
+        </div>
+    </section>
+    <section id="aboutUs">
+        <div class="aboutUs-title">
+            關於我們
+        </div>
+        <div class="ui stackable grid aboutUs-content1">
+            <div class="two wide column"></div>
+            <div class="six wide column">
+                <img src="{{aboutus_graph}}" alt="" />
+            </div>
+            <div class="six wide column">
+                {{#each aboutus}}
+                <p>{{this.detail}}</p>
+                {{/each}}
+            </div>
+            <div class="two wide column"></div>
+        </div>
+    </section>
+    <section id="contactUs">
+        <div class="ui stackable two column centered grid contactUsgroup">
+            <div class="column contactUs-title"><p>Contact Us</p></div>
+            <div class="two column centered row">
+                <div class="column lab-info">
+                    <p>{{title}}</p>
+                    <!-- <div id="contact_logo"> -->
+                        <!-- <img src="img/logo.svg"> -->
+                    <!-- </div> -->
+                    <h3 class="ui header address_info">
+                        <img src="img/icon_address.svg">
+                        <div class="content">
+                            {{address}}
+                        </div>
+                    </h3>
+                    <h3 class="ui header email_info">
+                        <img src="img/icon_email.svg">
+                        <div class="content">
+                            {{email}}
+                        </div>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="js/semantic.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/mainPage-controller.js"></script>
+</body>
+</html>
