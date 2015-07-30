@@ -1,0 +1,493 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+a, a:visited, a:hover, a:active {
+  color: inherit; }
+
+img {
+  max-width: 100%; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99; }
+
+section {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding-right: 15px;
+  /* Increase this value for cross-browser compatibility */ }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.nav {
+  width: 100%;
+  background-color: #1a1a1a; }
+
+.nav-btns {
+  position: absolute;
+  right: 0px;
+  height: inherit; }
+
+#main-page, #work-set, #about-us, #contact-us {
+  position: relative;
+  text-decoration: none;
+  top: 25%;
+  color: inherit; }
+
+.nav-index, .nav-works, .nav-about, .nav-contact {
+  float: left;
+  margin-right: 20px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+  height: 74px;
+  font-size: 18px;
+  border-color: #d9e021;
+  background-color: #1a1a1a; }
+
+.nav-contact {
+  margin-right: 30px; }
+
+.nav-index:hover, .nav-works:hover, .nav-about:hover, .nav-contact:hover {
+  cursor: pointer;
+  background-color: #343437; }
+
+.main-page-border.nav-active {
+  position: absolute;
+  bottom: 0px;
+  width: 100px;
+  height: 5px;
+  background-color: #d9e021;
+  z-index: 10000;
+  border: 50px; }
+
+.nav-btn {
+  float: right;
+  margin-right: 20px;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+  cursor: pointer; }
+
+.mobileMenu {
+  position: fixed;
+  top: 74px;
+  right: 0px;
+  z-index: 99; }
+
+.mobileMenu.item {
+  width: 100%; }
+
+.logo-text {
+  float: left;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+  font-family: 'PT Sans', sans-serif; }
+
+.logo img {
+  float: left;
+  width: 60px;
+  margin-left: 28px;
+  position: relative;
+  top: 8px;
+  padding: 5px; }
+
+.index {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646; }
+
+.introduce_logo {
+  width: 100%;
+  height: 40%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  top: 10%; }
+
+.introduce_logo img {
+  width: 50%;
+  height: 80%; }
+
+.introduce_titile {
+  width: 100%;
+  height: 40%;
+  text-align: center; }
+
+.introduce_titile_text {
+  font-size: 80px;
+  font-family: 'PT Sans', sans-serif;
+  color: #d9e021; }
+
+.introduce_subtitile_text {
+  font-size: 80px;
+  font-family: 'PT Sans', sans-serif;
+  color: white; }
+
+.slogan {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'PT Sans', sans-serif;
+  color: white; }
+
+.workset_title {
+  position: relative;
+  top: 15%;
+  text-align: center;
+  font-size: 40pt;
+  font-weight: bolder;
+  color: #464646; }
+
+#workSets {
+  height: 980px;
+  max-width: 800px;
+  margin: 0 auto; }
+
+.workListTab {
+  position: relative;
+  top: 20%;
+  max-width: 800px;
+  margin: 0 auto; }
+
+.workListTab-content {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  margin: 0 auto; }
+
+.workListTab-content p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #565656;
+  font-weight: bolder; }
+
+.aboutUs-title {
+  position: relative;
+  top: 15%;
+  text-align: center;
+  font-size: 40pt;
+  font-weight: bolder;
+  color: #464646; }
+
+.aboutUs-content1 {
+  position: relative;
+  top: 26%;
+  width: 100%;
+  margin: 0 auto; }
+
+.aboutUs-content1 img {
+  width: 80%;
+  margin-right: 18%; }
+
+.aboutUs-content1 p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #565656;
+  font-weight: bolder; }
+
+.aboutUs-content1 strong {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #565656;
+  font-weight: bolder;
+  margin: 5px; }
+
+#aboutUs-2 {
+  position: relative;
+  /*top:20%;*/
+  height: 800px; }
+
+.aboutUs-2-list {
+  position: relative;
+  top: 10%;
+  text-align: center; }
+
+.aboutUs-2-list div {
+  font-size: 28pt;
+  font-weight: bolder;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: inline-block; }
+
+.aboutUs-2-img {
+  position: relative;
+  top: 10%;
+  width: 85%;
+  margin: 0 auto; }
+
+#medicalInfo-tab, #main-story-tab {
+  font-size: 22px;
+  color: #464646; }
+
+.team-list {
+  position: relative;
+  max-width: 800px;
+  height: 1200px;
+  margin: 0 auto; }
+
+.teamlist-title {
+  font-size: 24pt; }
+
+.team-title div {
+  position: absolute;
+  left: 60px;
+  font-size: 25pt;
+  width: 150px;
+  margin: 0 auto; }
+
+.team-info div {
+  position: relative;
+  top: 5%;
+  font-size: 18pt;
+  font-weight: inherit;
+  color: #464646; }
+
+.team-info .content {
+  position: relative;
+  top: 5%; }
+
+.team-info > img {
+  width: 5em; }
+
+#aboutUs-3 {
+  position: relative;
+  max-width: 800px;
+  height: 30%;
+  margin: 0 auto; }
+
+#contactUs {
+  background-color: #4d4d4d;
+  position: relative;
+  height: 700px; }
+
+.contactUsgroup {
+  position: relative;
+  top: 10%; }
+
+.contactUs-title p {
+  text-align: center;
+  font-size: 40pt;
+  font-family: 'PT Sans', sans-serif;
+  color: white; }
+
+#contact_logo {
+  display: none; }
+
+.lab-info p {
+  font-size: 28pt;
+  color: #999999;
+  position: relative;
+  left: 70px; }
+
+.lab-info h3 {
+  position: relative;
+  left: 60px; }
+
+.lab-info .address_info .content {
+  font-size: 16pt;
+  color: white;
+  max-width: 80%; }
+
+.lab-info .phone_info .content {
+  font-size: 16pt;
+  color: white;
+  max-width: 80%; }
+
+.lab-info .email_info .content {
+  font-size: 16pt;
+  color: white;
+  max-width: 80%; }
+
+.footer {
+  background-color: #333333;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 10%;
+  text-align: center;
+  font-size: 20pt;
+  font-family: 'PT Sans', sans-serif;
+  color: white; }
+
+.copyright {
+  position: relative;
+  top: 40%;
+  z-index: 11;
+  margin: 0 auto;
+  font-size: 16px; }
+
+#user_form label {
+  font-size: 18pt;
+  color: white;
+  font-weight: lighter;
+  font-family: 'PT Sans', sans-serif; }
+
+#user_form .button {
+  font-size: 18pt;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #d9e021; }
+
+#mobileSend {
+  display: none; }
+
+.deadrate_modal, .treemap_modal, .barmap_modal {
+  cursor: pointer; }
+
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 23px;
+    margin-top: 24px; }
+
+  .logo img {
+    width: 53px; }
+
+  .nav.mobile.only.narrow.row {
+    margin-top: -6%; }
+
+  .introduce_logo {
+    width: 100%;
+    height: 40%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: 15%; }
+
+  section {
+    overflow: scroll; }
+
+  .introduce_logo img {
+    width: 40%;
+    height: 80%; }
+
+  .introduce_titile {
+    width: 100%;
+    height: 20%;
+    text-align: center; }
+
+  .introduce_titile_text {
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    color: #d9e021; }
+
+  .introduce_subtitile_text {
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    color: white; }
+
+  .slogan {
+    font-size: 13px; }
+
+  .workset_title {
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #464646; }
+
+  #medicalInfo-tab, #main-story-tab {
+    font-size: 20px;
+    color: #464646; }
+
+  .aboutUs-title {
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #464646; }
+
+  .aboutUs-content1 img {
+    width: 45%;
+    margin-right: 0%;
+    margin-top: -100px; }
+
+  .aboutUs-content1 div {
+    text-align: center; }
+
+  .aboutUs-2-list div {
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block; }
+
+  #contact-us {
+    height: 600px; }
+
+  #contactUs {
+    background-color: #4d4d4d;
+    position: relative;
+    height: 700px; }
+
+  .contactUs-title p {
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 20px; }
+
+  .lab-info p {
+    font-size: 16pt;
+    color: #999999;
+    position: relative;
+    left: 30%; }
+
+  .lab-info h3 {
+    margin-top: 40px;
+    position: relative;
+    left: 10%; }
+
+  .lab-info .address_info .content {
+    font-size: 12pt;
+    color: white;
+    max-width: 70%; }
+
+  .lab-info .phone_info .content {
+    font-size: 12pt;
+    color: white;
+    max-width: 30%; }
+
+  .lab-info .email_info .content {
+    font-size: 12pt;
+    color: white;
+    max-width: 30%; }
+
+  .footer {
+    background-color: #333333;
+    clear: both;
+    text-align: center;
+    font-size: 10pt; }
+
+  #contact_logo {
+    display: block; }
+
+  #contact_logo img {
+    display: block;
+    margin-left: 25%;
+    width: 50%; }
+
+  #user_form {
+    display: none; }
+
+  #mobileSend {
+    display: block;
+    font-size: 18pt;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #d9e021; }
+
+  #mobileSend a, a:visited, a:hover, a:active {
+    color: inherit; } }
