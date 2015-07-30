@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="551.6 1102.4 597.8 597.8" enable-background="new 551.6 1102.4 597.8 597.8" xml:space="preserve">
+<symbol  id="ic_x5F_mail_x0D_" viewBox="-12 -12 24 24">
+	<path fill="#FFFFFF" d="M8,8H-8c-1.1,0-2-0.9-2-2V-6c0-1.1,0.9-2,2-2H8c1.1,0,2,0.9,2,2V6C10,7.1,9.1,8,8,8z M8,4L0-1l-8,5v2l8-5
+		l8,5V4z"/>
+	<polygon fill="none" points="12,-12 -12,-12 -12,12 12,12 	"/>
+</symbol>
+<g id="圖層_2">
+</g>
+<g id="圖層_1_1_">
+	
+		<use xlink:href="#ic_x5F_mail_x0D_"  width="24" height="24" id="XMLID_4_" x="-12" y="-12" transform="matrix(24.9069 0 0 -24.9069 850.4808 1401.2646)" overflow="visible"/>
+</g>
+<g id="圖層_3" display="none">
+	
+		<text transform="matrix(1.0817 0 0 1 -3652.2329 870.5248)" display="inline" fill="#00FFFF" font-family="'STHeitiTC-Medium'" font-size="482.8741">灰色色塊：rgb=26,26,26</text>
+	<g display="inline">
+		<g>
+			<polyline fill="none" stroke="#00FFFF" stroke-width="2" stroke-miterlimit="10" points="-3648.4,1771.9 12514.5,1771.9 
+				12514.5,1087.8 			"/>
+		</g>
+	</g>
+</g>
+</svg>
