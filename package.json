@@ -1,0 +1,18 @@
+{
+  "name": "medical-theme",
+  "version": "0.0.0",
+  "description": "canner can",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canner-can/medical-theme.git"
+  },
+  "author": "frankyang",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/Canner-can/medical-theme.git/issues"
+  },
+  "homepage": "http://canner-can.github.io/medical-theme"
+}
