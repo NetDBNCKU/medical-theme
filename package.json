@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/Canner-can/medical-theme.git"
   },
+  "keywords":   [
+      "canner-can"
+  ],
   "author": "frankyang",
   "license": "MIT",
   "bugs": {
