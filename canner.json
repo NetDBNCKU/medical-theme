@@ -1,22 +1,26 @@
 {
     "layout": "./index.hbs",
     "data": {
-        "title": "VISUALLY LAB",
-        "logo": "img/logo.svg",
-        "introduct_title": "Healthcare Data",
-        "sub_title": "Visualization",
-        "slogan": "Numbers have an important story to tell. They rely on you to give them a clear and convincing voice. ―Stephen Few",
+        "title": "Gogo LAB",
+        "logo": "http://i.imgur.com/FiHStUT.png",
+        "first-title": "首頁",
+        "content-title": "內容",
+        "aboutus-title": "關於我們",
+        "contactus-title": "聯絡我們",
+        "introduct_title": "Justcare Data",
+        "sub_title": "Lorem ipsum dolor sit amet",
+        "slogan": "Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu.",
         "content":  [
             {
-                "detail": "完全不攝取砂糖，不為轉糖鏈球菌提供營養，這是不罹患蛀牙最簡單的方法。但是，現在幾乎所有加工食品都會添加砂糖為調味料。而且我們每個人都會在外用餐，不可能餐餐都親自下廚烹煮料理。",
+                "detail": "Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.",
                 "image": ""
             },
             {
-                "detail": "因此考量到現實層面，我們不可能過著零砂糖的生活。但是我們至少可以減少咖啡與紅茶的砂糖添加量，或是以人工甘味劑代替砂糖，這樣就能夠減少蛀牙的風險。每個人都希望牙齒可以陪自己走過一輩子，那麼就必須抱持「盡可能不攝取砂糖」的強烈覺悟以及意志。請各位試著挑戰下列三件事。",
+                "detail": "Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.",
                 "image": ""
             },
             {
-                "detail": "剛開始執行，也許你會覺得「生活平淡無味」，但是只要持續一段時間，舌頭就開始可以嘗出原本被砂糖甜味所掩蓋的食物原味。此外，因為對砂糖的感受力跟著提高，你會突然發現，原來過去的飲食中居然有添加那麼大量的砂糖。若是能做到這一步，就算是超級成功，因為對你來說，過去的食品已經甜得難以入口。考量到牙齒健康，理想情況是「在飲食上完全不攝取砂糖」；但是對甜食愛好者來說，完全不吃甜食的人生簡直毫無繼續活下去的價值。",
+                "detail": "Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.",
                 "image": ""
             },
             {
@@ -27,20 +31,20 @@
         "content_graph": "http://www.elixirdoc.com/d/raw/?data_url=https%3A%2F%2Fs3.amazonaws.com%2Fkaggle-frank%2Ftmp.csv&elixir_data_type=csv#/cumulativeLineChart",
         "aboutus":  [
             {
-                "detail": "我們是一群由成功大學的老師、畢業生、在校生、所組成的跨領域團隊。"
+                "detail": "Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia."
             },
             {
-                "detail": "台灣的健康醫療環境一路走來，有它的驕傲，也有它的憂愁。這個跟你我習習相關的議題，卻常因為對醫學統計數據的陌生，導致多數人無法了解甚至參與。"
+                "detail": "Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet."
             },
             {
-                "detail": "我們透過所學 -- 資料分析，資料處理，視覺設計資料呈現，還有資訊分享的技術，呈現隱藏在台灣醫學統計數據背後的意義。"
+                "detail": "Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing."
             },
             {
-                "detail": "讓您對台灣健康醫療數據有深入的了解，感受台灣這一世代的故事，共同維持這個環境的好成果，並一起改善不足的地方。"
+                "detail": "Elit consequat nisi eiusmod aute ipsum sunt veniam do est."
             }
         ],
-        "aboutus_graph": "img/icon_ncku.svg",
-        "address": "70101 台南市東區大學路一號資訊系館新大樓65602 (NetDB)",
-        "email": "visuallylab@gmail.com"
+        "aboutus_graph": "http://i.imgur.com/FiHStUT.png",
+        "address": "xxxxx somewhere xxxxx",
+        "email": "tmp@gmail.com"
     }
 }

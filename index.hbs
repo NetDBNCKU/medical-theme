@@ -21,19 +21,19 @@
                 </div>
                 <div class="nav-btns">
                     <a class="nav-index" href="#index">
-                        <div id="main-page">首頁</div>
+                        <div id="main-page">{{first-title}}</div>
                         <div class="main-page-border nav-active"></div>
                     </a>
                     <a class="nav-works" href="#workSets">
-                        <div id="work-set">內容</div>
+                        <div id="work-set">{{content-title}}</div>
                         <div class="main-page-border"></div>
                     </a>
                     <a class="nav-about" href="#aboutUs">
-                        <div id="about-us">關於我們</div>
+                        <div id="about-us">{{aboutus-title}}</div>
                         <div class="main-page-border"></div>
                     </a>
                     <a class="nav-contact" href="#contactUs">
-                        <div id="contact-us">聯絡我們</div>
+                        <div id="contact-us">{{contactus-title}}</div>
                         <div class="main-page-border"></div>
                     </a>
                 </div>
@@ -50,10 +50,10 @@
                         <i class="list layout icon"> </i>
                     </div>
                     <div class="ui vertical menu mobileMenu" style="display:none">
-                        <a class="item m-index" href="#index">首頁</a>
-                        <a class="item m-workset" href="#workSets">內容</a>
-                        <a class="item m-aboutus" href="#aboutUs">關於內容</a>
-                        <a class="item m-contactus" href="#contactUs">聯絡我們</a>
+                        <a class="item m-index" href="#index">{{first-title}}</a>
+                        <a class="item m-workset" href="#workSets">{{content-title}}</a>
+                        <a class="item m-aboutus" href="#aboutUs">{{aboutus-title}}</a>
+                        <a class="item m-contactus" href="#contactUs">{{contactus-title}}</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
     </section>
     <section id="workSets">
         <div class="workSet_title">
-            <p> 內容 </p>
+            <p>{{content-title}}</p>
         </div>
         <div class="ui stackable grid workListTab-content">
             <div class="two wide column"></div>
@@ -83,14 +83,14 @@
                 <img src="{{this.image}}" style="width:100%;"></img>
                 {{/each}}
                 <p></p>
-                <iframe src="{{content_graph}}" frameborder="0" style="width:100%; height:600px;"></iframe>
             </div>
+            <iframe src="{{content_graph}}" frameborder="0" style="width:100%; height:800px;"></iframe>
             <div class="one wide column"></div>
         </div>
     </section>
     <section id="aboutUs">
         <div class="aboutUs-title">
-            關於我們
+            {{aboutus-title}}
         </div>
         <div class="ui stackable grid aboutUs-content1">
             <div class="two wide column"></div>
@@ -107,7 +107,7 @@
     </section>
     <section id="contactUs">
         <div class="ui stackable two column centered grid contactUsgroup">
-            <div class="column contactUs-title"><p>Contact Us</p></div>
+            <div class="column contactUs-title"><p>{{contactus-title}}</p></div>
             <div class="two column centered row">
                 <div class="column lab-info">
                     <p>{{title}}</p>
