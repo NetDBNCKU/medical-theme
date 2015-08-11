@@ -81,7 +81,7 @@
             <div class="thirteen wide column">
                 {{#each content}}
                 <p>{{this.detail}}</p>
-                <img src="{{this.image}}" style="width:100%;"></img>
+                <img class="content-img" src="{{this.image}}" style="width:100%;"></img>
                 {{/each}}
                 <p></p>
             </div>
@@ -134,5 +134,13 @@
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="js/semantic.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/mainPage-controller.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var content_imgs = document.getElementsByClassName("content-img");
+        for (var i=0; i < content_imgs.length; i++){
+            if (content_imgs[i].src == document.URL) {
+                content_imgs[i].style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>

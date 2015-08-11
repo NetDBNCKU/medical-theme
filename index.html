@@ -78,13 +78,13 @@
             <div class="two wide column"></div>
             <div class="thirteen wide column">
                 <p>Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.</p>
-                <img src="" style="width:100%;">
+                <img class="content-img" src="" style="width:100%;">
                 <p>Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.</p>
-                <img src="" style="width:100%;">
+                <img class="content-img" src="" style="width:100%;">
                 <p>Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis proident minim.</p>
-                <img src="" style="width:100%;">
+                <img class="content-img" src="" style="width:100%;">
                 <p></p>
-                <img src="" style="width:100%;">
+                <img class="content-img" src="" style="width:100%;">
                 <p></p>
             </div>
             <iframe src="http://www.elixirdoc.com/d/raw/?data_url=https%3A%2F%2Fs3.amazonaws.com%2Fkaggle-frank%2Ftmp.csv&amp;elixir_data_type=csv#/cumulativeLineChart" frameborder="0" style="width:100%; height:800px;"></iframe>
@@ -137,6 +137,14 @@
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="js/semantic.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/mainPage-controller.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var content_imgs = document.getElementsByClassName("content-img");
+        for (var i=0; i < content_imgs.length; i++){
+            if (content_imgs[i].src == document.URL) {
+                content_imgs[i].style.display = 'none';
+            }
+        }
+    </script>
 
 
 </body></html>
