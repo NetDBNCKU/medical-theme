@@ -19,8 +19,10 @@ header{
 section {
   height: 100%;
   width: 100%;
-  overflow: scroll;
   padding-right: 15px; /* Increase this value for cross-browser compatibility */
+}
+section#workSets {
+  overflow: scroll;
 }
 .clearfix {
   overflow: auto;
