@@ -48,5 +48,74 @@
         "aboutus_graph": "http://i.imgur.com/FiHStUT.png",
         "address": "xxxxx somewhere xxxxx",
         "email": "tmp@gmail.com"
+    },
+    "columns": {
+        "title": {
+            "~description": "你的標題"
+        },
+        "logo": {
+            "~description": "你的logo",
+            "~format": "image"
+        },
+        "first-title": {
+            "~description": "你首頁的標題"
+        },
+        "content-title": {
+            "~description": "你內容的標題"
+        },
+        "aboutus-title": {
+            "~description": "你關於我們的標題"
+        },
+        "contactus-title": {
+            "~description": "你聯絡我們的標題"
+        },
+        "index-background-img": {
+            "~description": "你首頁的背景圖",
+            "~format": "image"
+        },
+        "introduce-logo": {
+            "~description": "你首頁的子logo",
+            "~format": "image"
+        },
+        "introduct_title": {
+            "~description": "你首頁的標題"
+        },
+        "sub_title": {
+            "~description": "你首頁的子標題"
+        },
+        "slogan": {
+            "~description": "你首頁的slogan"
+        },
+        "content": {
+            "~description": "你的內容",
+            "detail": {
+                "~description": "你的內容段落"
+            },
+            "image": {
+                "~description": "你內容段落的圖片",
+                "~format": "image"
+            }
+        },
+        "content_graph": {
+            "~description": "你內容的圖片",
+            "~format": "image"
+        },
+        "aboutus": {
+            "~description": "你的關於我們",
+            "detail": {
+                "~description": "你的關於我們的細節"
+            }
+        },
+        "aboutus_graph": {
+            "~description": "你關於我們的圖片",
+            "~format": "image"
+        },
+        "address": {
+            "~description": "你們單位的地址"
+        },
+        "email": {
+            "~description": "你們單位的信箱",
+            "~format": "user.profile.email"
+        }
     }
 }
