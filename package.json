@@ -1,6 +1,6 @@
 {
   "name": "medical-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "canner can",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   },
   "keywords":   [
       "canner-can",
-      "other"
+      "beta"
   ],
   "author": "frankyang",
   "license": "MIT",
